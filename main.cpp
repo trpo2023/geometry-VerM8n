@@ -26,7 +26,7 @@ int NumberCheck(int begin, int end, int error, char *string)
 int main()
 {
     FILE* file;
-    file = fopen("test.txt", "r");
+    file = fopen("lab.txt", "r");
 
     if (!file)
     {
@@ -51,7 +51,7 @@ int main()
     }
 
     char string[length], figure[] = "circle";
-    file = fopen("test.txt", "r");
+    file = fopen("lab.txt", "r");
 
     while(fgets(string, length - 1, file))
     {
